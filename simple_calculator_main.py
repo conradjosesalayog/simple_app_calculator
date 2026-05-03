@@ -60,4 +60,8 @@ def main():
 
                 calculator.average(num_list)
 
+            else:
+                print("Invalid choice. Please try again.")
+
+
 
