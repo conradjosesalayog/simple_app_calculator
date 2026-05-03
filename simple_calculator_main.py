@@ -63,7 +63,14 @@ def main():
             else:
                 print("Invalid choice. Please try again.")
                 continue
-                
+        except:
+            print("Invalid input. Please try again.")
+
+        retry = input("Do you want to use the RAD CALCULATOR again?(yes/no):")
+        if retry != "yes":
+            print("Thank you for using RAD CALCULATOR! Turning off...")
+            break
+
 
 
 
