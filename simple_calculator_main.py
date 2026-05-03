@@ -54,4 +54,8 @@ def main():
                 values = input("Enter values(space separated): ")
                 separated_values = values.split()
 
+                num_list =[]
+                for item in separated_values:
+                    num_list.append(float(item))
+
 
