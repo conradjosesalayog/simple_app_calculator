@@ -35,3 +35,6 @@ def main():
                 if user_choice == "2":
                     calculator.subtract()
 
+                if user_choice == "3":
+                    calculator.multiply()
+
