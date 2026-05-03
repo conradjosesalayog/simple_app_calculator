@@ -7,3 +7,7 @@ class SimpleCalculator:
     def numbers(self, first_number, second_number):
         self.first_number = first_number
         self.second_number = second_number
+
+    def add(self):
+        self.result = self.first_number + self.second_number
+        print(f"\n Result: {self.result}")
