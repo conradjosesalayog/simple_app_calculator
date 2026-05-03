@@ -27,3 +27,4 @@ class SimpleCalculator:
             self.result = self.first_number / self.second_number
             print(f"\n Result: {self.result}")
 
+class MoreFeaturesCalculator(SimpleCalculator):
