@@ -19,3 +19,11 @@ class SimpleCalculator:
     def multiply(self):
         self.result = self.first_number * self.second_number
         print(f"\n Result: {self.result}")
+
+    def divide(self):
+        if self.second_number == 0:
+            print("The first number cannot be divided by zero!")
+        else:
+            self.result = self.first_number / self.second_number
+            print(f"\n Result: {self.result}")
+
