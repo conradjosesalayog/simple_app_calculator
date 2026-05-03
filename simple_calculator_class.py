@@ -46,3 +46,7 @@ class MoreFeaturesCalculator(SimpleCalculator):
     def average(self, number_list):
         if number_list is len(number_list) == 0 or None:
             print("No numbers entered!")
+        else:
+            total_sum = 0
+            for number in number_list:
+                total_sum += number
