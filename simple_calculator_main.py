@@ -41,3 +41,6 @@ def main():
                 elif user_choice == "4":
                     calculator.divide()
 
+                elif user_choice == "5":
+                    calculator.exponential()
+
