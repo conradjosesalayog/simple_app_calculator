@@ -32,9 +32,12 @@ def main():
                 if user_choice == "1":
                     calculator.add()
 
-                if user_choice == "2":
+                elif user_choice == "2":
                     calculator.subtract()
 
-                if user_choice == "3":
+                elif user_choice == "3":
                     calculator.multiply()
+
+                elif user_choice == "4":
+                    calculator.divide()
 
