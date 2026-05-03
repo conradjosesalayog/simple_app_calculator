@@ -71,6 +71,9 @@ def main():
             print("Thank you for using RAD CALCULATOR! Turning off...")
             break
 
+if __name__ == "__main__":
+    main()
+
 
 
 
