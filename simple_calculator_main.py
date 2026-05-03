@@ -1,0 +1,1 @@
+from simple_calculator_class import MoreFeaturesCalculator
