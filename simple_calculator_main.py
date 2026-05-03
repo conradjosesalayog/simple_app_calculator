@@ -28,3 +28,8 @@ def main():
                 second_number = float(input("Enter second number: "))
 
                 calculator.numbers(first_number, second_number)
+
+
+                if user_choice == "1":
+                    calculator.add()
+
