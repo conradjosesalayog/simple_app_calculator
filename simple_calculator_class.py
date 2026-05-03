@@ -42,3 +42,7 @@ class MoreFeaturesCalculator(SimpleCalculator):
         else:
             self.result = self.first_number / self.second_number * 100
             print(f"\n {self.first_number} of {self.second_number} is {self.result}%")
+
+    def average(self, number_list):
+        if number_list is len(number_list) == 0 or None:
+            print("No numbers entered!")
