@@ -50,3 +50,5 @@ class MoreFeaturesCalculator(SimpleCalculator):
             total_sum = 0
             for number in number_list:
                 total_sum += number
+            self.result = total_sum / len(number_list)
+            print(f"\n Average: {self.result}")
