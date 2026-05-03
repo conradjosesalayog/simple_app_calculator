@@ -29,7 +29,9 @@ def main():
 
                 calculator.numbers(first_number, second_number)
 
-
                 if user_choice == "1":
                     calculator.add()
+
+                if user_choice == "2":
+                    calculator.subtract()
 
