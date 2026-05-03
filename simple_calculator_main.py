@@ -47,3 +47,6 @@ def main():
                 elif user_choice == "6":
                     calculator.remainder()
 
+                elif user_choice == "7":
+                    calculator.percent()
+
