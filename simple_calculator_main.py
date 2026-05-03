@@ -58,4 +58,6 @@ def main():
                 for item in separated_values:
                     num_list.append(float(item))
 
+                calculator.average(num_list)
+
 
