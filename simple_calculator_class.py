@@ -28,3 +28,6 @@ class SimpleCalculator:
             print(f"\n Result: {self.result}")
 
 class MoreFeaturesCalculator(SimpleCalculator):
+    def exponential(self):
+        self.result = self.first_number ** self.second_number
+        print(f"\n Result: {self.result}")
