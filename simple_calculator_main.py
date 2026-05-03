@@ -14,3 +14,6 @@ def calculator_menu():
     print("║                                                       ║")
     print("║\033[3m Did you know?: The word 'Rad' in tagalog is MAANGAS!!\033[0m ║")
     print("╚═══════════════════════════════════════════════════════╝")
+
+def main():
+    calculator = MoreFeaturesCalculator()
