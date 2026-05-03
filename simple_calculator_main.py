@@ -22,3 +22,9 @@ def main():
         calculator_menu()
         user_choice = input("Choose an operation(1-8):")
 
+        try:
+            if user_choice in ["1", "2", "3", "4", "5", "6", "7"]:
+                first_number = float(input("Enter first number: "))
+                second_number = float(input("Enter second number: "))
+
+                calculator.numbers(first_number, second_number)
