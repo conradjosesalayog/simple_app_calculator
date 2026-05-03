@@ -17,3 +17,8 @@ def calculator_menu():
 
 def main():
     calculator = MoreFeaturesCalculator()
+
+    while True:
+        calculator_menu()
+        user_choice = input("Choose an operation(1-8):")
+
