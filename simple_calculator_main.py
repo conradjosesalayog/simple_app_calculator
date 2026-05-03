@@ -50,3 +50,8 @@ def main():
                 elif user_choice == "7":
                     calculator.percent()
 
+            elif user_choice == "8":
+                values = input("Enter values(space separated): ")
+                separated_values = values.split()
+
+
