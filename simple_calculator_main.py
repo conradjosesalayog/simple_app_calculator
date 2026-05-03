@@ -44,3 +44,6 @@ def main():
                 elif user_choice == "5":
                     calculator.exponential()
 
+                elif user_choice == "6":
+                    calculator.remainder()
+
