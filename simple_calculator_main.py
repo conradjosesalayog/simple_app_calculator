@@ -1,4 +1,4 @@
-from simple_calculator_class import MoreFeaturesCalculator
+from more_simple_calculator_class import MoreFeaturesCalculator
 def calculator_menu():
     print("")
     print("╔═══════════════════ \033[0;32mRAD CALCULATOR\033[0m ════════════════════╗")
